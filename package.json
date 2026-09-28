@@ -1,0 +1,15 @@
+{
+  "name": "3d-home-tools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "optimize": "node scripts/optimize-images.mjs",
+    "preview": "node scripts/preview.mjs",
+    "serve": "npx serve 360-tour",
+    "test": "node scripts/test-tour.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.12.0",
+    "sharp": "^0.35.5"
+  }
+}

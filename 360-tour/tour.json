@@ -1,0 +1,23 @@
+{
+  "firstScene": "reception",
+  "scenes": {
+    "reception": {
+      "title": "Reception",
+      "image": "images/reception.jpg",
+      "imageMobile": "images/mobile/reception.jpg",
+      "startYaw": 10,
+      "hotspots": [
+        { "to": "room", "label": "Go to Room", "pitch": -25, "yaw": 38, "targetYaw": 10 }
+      ]
+    },
+    "room": {
+      "title": "Room",
+      "image": "images/room.jpg",
+      "imageMobile": "images/mobile/room.jpg",
+      "startYaw": 10,
+      "hotspots": [
+        { "to": "reception", "label": "Back to Reception", "pitch": -21, "yaw": -16.5, "targetYaw": -142 }
+      ]
+    }
+  }
+}
